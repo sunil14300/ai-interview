@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; background: #f7f8fb; margin: 0; padding: 0; }
+.app { max-width: 800px; margin: 24px auto; padding: 16px; }
+.interview-card { background: #fff; padding: 18px; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+.row { display:flex; gap:8px; align-items:center; margin-bottom:12px; }
+.question { font-weight:600; margin-bottom:12px; }
+.controls button { margin-right:8px; }
+.transcript { margin-top:8px; font-style:italic; }
+.evaluation { margin-top:12px; background:#fafafa; padding:12px; border-radius:6px; }
