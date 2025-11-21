@@ -19,8 +19,8 @@ if (!process.env.GEMINI_API_KEY) {
 }
 console.log("Using API Key:", process.env.GEMINI_API_KEY ? "FOUND" : "MISSING");
 
-const MONGO_URI = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/ai_interview";
-const JWT_SECRET = process.env.JWT_SECRET || "dev_secret";
+const MONGO_URI = process.env.MONGO_URI ;
+const JWT_SECRET = process.env.JWT_SECRET;
 
 // ---- MongoDB setup ----
 mongoose
